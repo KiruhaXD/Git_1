@@ -8,9 +8,17 @@ namespace Git_1
 {
     internal class Program
     {
+        static int Div(int operand1, int operand2) 
+        {
+            if (operand1 != 0 && operand2 != 0)
+                return operand1 / operand2;
+            else
+                return 0;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+            Console.WriteLine("My first commit");
             
         }
     }
