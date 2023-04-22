@@ -15,6 +15,10 @@ namespace Git_1
             else
                 return 0;
         }
+        static int Hed(int operand1, int operand2)
+        {  
+                return operand2 + operand2;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
