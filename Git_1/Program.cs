@@ -18,13 +18,15 @@ namespace Git_1
         static int Hed(int operand1, int operand2)
         {  
                 return operand2 + operand2;
+                
         }
-        Console.Write(" add metod write() ")
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
             Console.WriteLine("My first commit");
-            
+            Console.Write(" add metod write() ");
+
         }
     }
 }
