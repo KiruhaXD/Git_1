@@ -19,6 +19,7 @@ namespace Git_1
         {  
                 return operand2 + operand2;
         }
+        Console.Write(" add metod write() ")
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
